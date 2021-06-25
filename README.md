@@ -1,7 +1,5 @@
 # TWRP for Galaxy Tab S3 (gts3llte)
 
-> Still working in progress.
-
 ## How to build
 
 Set up AOSP build environment before following this guide.
@@ -49,7 +47,8 @@ repo sync
 
 ## Special Thanks to
 
-- Valera1978 for his amazing previous work including his MSM8996 kernel
+- Valera1978 for his previous work including his MSM8996 kernel
+- ashyx for his previous work on TWRP
 
 ## License
 
