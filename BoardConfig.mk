@@ -62,8 +62,8 @@ BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
-TARGET_PREBUILT_KERNEL := device/samsung/gts3llte/prebuilt/Image.gz-dtb
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/gts3llte/mkbootimg.mk
+TARGET_PREBUILT_KERNEL := device/samsung/gts3lwifi/prebuilt/Image.gz-dtb
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/gts3lwifi/mkbootimg.mk
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 79691776

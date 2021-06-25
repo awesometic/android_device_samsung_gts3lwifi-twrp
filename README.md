@@ -1,4 +1,4 @@
-# TWRP for Galaxy Tab S3 (gts3llte)
+# TWRP for Galaxy Tab S3 (gts3lwifi)
 
 ## How to build
 
@@ -15,7 +15,7 @@ Create a manifest file to clone this repository.
 
 ```bash
 mkdir .repo/local_manifests
-vi .repo/local_manifests/gts3llte.xml
+vi .repo/local_manifests/gts3lwifi.xml
 ```
 
 Put this content into that file.
@@ -23,8 +23,8 @@ Put this content into that file.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="awesometic/android_device_samsung_gts3llte_twrp"
-        path="device/samsung/gts3llte"
+    <project name="awesometic/android_device_samsung_gts3lwifi-twrp"
+        path="device/samsung/gts3lwifi"
         revision="android-9.0"
         remote="github" />
 </manifest>
@@ -34,7 +34,7 @@ Sync and build.
 
 ```bash
 repo sync
-. build/envsetup.sh ; lunch omni_gts3llte-eng ; mka recoveryimage
+. build/envsetup.sh ; lunch omni_gts3lwifi-eng ; mka recoveryimage
 ```
 
 ## Credits
